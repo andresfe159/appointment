@@ -33,4 +33,4 @@ function ciclo() {
 razas();
 ciclo();
 */
-alert("Bienvenido a Medicare, por favor llene el formulario para agendar su cita. Recuerde ingresar la hora en formato 24:00hrs");
+alert("Bienvenido a Medicare, por favor llene el formulario para agendar su cita.");
