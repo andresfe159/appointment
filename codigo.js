@@ -1,7 +1,7 @@
 console.log("Hola mundo");
 console.log("En este documento se practicará algo de JavaScript :)");
 
-var numero, coma = ",";
+/* var numero, coma = ",";
 
 for (numero = 1; numero <= 10; numero++) {
     if (numero % 2 == 0) {
@@ -32,5 +32,5 @@ function ciclo() {
 
 razas();
 ciclo();
-
+*/
 alert("Bienvenido a Medicare, por favor llene el formulario para agendar su cita.");
