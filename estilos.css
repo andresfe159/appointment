@@ -1,5 +1,5 @@
 body {
-    font-family: arial, helvetica;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #e8e8e8;
     background-image: url('imagenes/mouse.jpg');
     background-size: cover;
@@ -63,6 +63,18 @@ body {
     color: white;
 }
 
+.especialidad {
+    width: 105%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
 .form-register p {
     height: 40px;
     text-align: center;
@@ -91,15 +103,58 @@ body {
     border-radius: 50px;
 }
 
-.secciones {
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: #4c4d4d;
+    margin-top: 75px;
+    font-weight: 100;
+    font-family: font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
     width: 100%;
-    background: #fff;
+    max-width: 1000px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 
-.secciones article {
-    padding: 30px;
+.container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
 }
 
-.secciones article p {
-    text-align: justify;
+.container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4 {
+    font-weight: 600;
+}
+
+.container .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
 }
