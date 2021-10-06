@@ -33,4 +33,3 @@ function ciclo() {
 razas();
 ciclo();
 */
-alert("Bienvenido a Medicare, por favor llene el formulario para agendar su cita.");
