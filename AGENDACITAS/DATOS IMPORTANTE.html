@@ -1,0 +1,62 @@
+<img src="../imagenes/logo.jpg" alt="">
+
+
+<svg class="corazon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125">
+    <path class="corazonprincipal" d="M50.8 84.5 26.1 57.1s-6.7-7.4-9.6-17.3 3-19.9 12.4-23.6c0 0 9.9-4.7 22 5.9 0 0 11.8-11.2 23.8-5.2 0 0 11.4 4.6 11.2 20 0 0-.6 6.9-5.8 13.5S50.8 84.5 50.8 84.5z">
+    <path class="corazonlinea" d="m10.5 54.3 22.9.4 3.6-11 9.1 19.8 9-29.5 9.2 20.1h23.8"></svg>
+</svg>
+
+            <input type="text" placeholder="Tu nombre" class="box">
+            <input type="number" placeholder="Numero de telefono" class="box">
+            <input type="email" placeholder="Tu correo" class="box">
+            <input type="date" class="box">
+            <input type="submit" value="Enviar" class="btn">
+
+
+
+            
+.corazon{
+    width: 440px;
+    height: 440px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .corazonprincipal{
+    fill: red;
+    stroke: none;
+  }
+  
+  .corazonlinea{
+    fill: none;
+    stroke: none;
+  }
+  
+  .corazon:hover .corazonprincipal{
+    stroke: #3498db;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+  
+    animation: animacioncorazon 2s ease-out forwards;
+  }
+  
+  .corazon:hover .corazonlinea{
+    stroke: #3498db;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+  
+    animation: animacioncorazon 2s ease-out forwards;
+  
+  }
+  
+  @keyframes animacioncorazon {
+    to{
+      stroke-dashoffset: 0;
+    }
+  }
